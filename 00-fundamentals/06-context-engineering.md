@@ -49,6 +49,9 @@
 | **子 Agent 隔离** | 探索性子任务在独立上下文跑完，只回传摘要（见 [05](05-multi-agent-collaboration.md#上下文爆炸)） | 协调开销 |
 | **检索替代全量** | 文档入库按需检索（见 [vector-database](glossary/vector-database.md)） | 检索可能漏 |
 
+> **交叉注记：工作区自查找 ≈ 无固定黑板**  
+> 「工具结果落盘 + 渐进披露」让 Agent 在工作区里按需查找、自行组织上下文——coding Agent 面对大仓库正是如此，并不依赖一块唯一的共享黑板。[ChainReactor 公开文章](https://mp.weixin.qq.com/s/bmQmIMtiPANCC8hEwmO0ew)中「不设固定黑板」的 nomd 组与此同构，初步结果是解题能力接近、主要差在每次启动的探索耗时（未独立复现）。因此工作区自探索可以替代「唯一共享黑板」作为推理接口，黑板更适合做观测面；详见 [05 §4 行业注记](05-multi-agent-collaboration.md#4-blackboard黑板)。
+
 ## 4. 常见失败
 
 ![上下文常见失败与对策](assets/context-failures.svg)

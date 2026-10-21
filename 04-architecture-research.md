@@ -119,6 +119,8 @@ C. 会话树型（pi / Sentinel / 部分 Strix 子会话）
 
 **平台建议**：默认「图/工件外置 + 近端原文 + 安全模板摘要」；禁止静默合并 findings。
 
+> **定位注记（2026-10-21）**：「图外置 + 冷压缩」中的图，首先服务于**资产覆盖可视化、审计回放与跨 Worker 共享效率**；勿把图 Schema 的精巧程度当作能力银弹。依据为 ChainReactor / M09ic《黑板之外-走向更开放的AI渗透架构设计》（2026-10-20，<https://mp.weixin.qq.com/s/bmQmIMtiPANCC8hEwmO0ew>） 所述初步消融（结构化黑板未见提升解题率，未独立复现），详见 [05 §4 行业注记](00-fundamentals/05-multi-agent-collaboration.md#4-blackboard黑板) 与 [CYBER-Cairn](01-competitors/CYBER-Cairn.md)。本注记不改变记忆层选 ARTEX 双图的结论。
+
 ### 4.3 门限审核：分层模型
 
 ```
@@ -214,6 +216,7 @@ Aurora 覆盖 L1–L4 最完整；Clouditera VulnHunter 强在 L5（decide/gate/
 |---|---|
 | `00-index.md` | 索引与结论 |
 | `01-competitors/*.md` | 六竞品全文 |
+| `01-competitors/CYBER-Cairn.md` | 闭源信号摘要（ChainReactor CYBER / Cairn；非开源竞品，未核实） |
 | `02-frameworks/pi-dsh-langchain-langgraph.md` | 框架专章 |
 | `03-comparison-matrix.md` | 对比矩阵 |
 | `04-architecture-research.md` | 本总报告 |

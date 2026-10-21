@@ -35,6 +35,7 @@
 | [02-frameworks/youngflow.md](02-frameworks/youngflow.md) | YoungFlow：LangGraph+pi flow runner |
 | [01-competitors/Full-Chain-Sentinel-System.md](01-competitors/Full-Chain-Sentinel-System.md) | pi fork 渗透控制台 |
 | [01-competitors/DeepAudit.md](01-competitors/DeepAudit.md) | ReAct 多 Agent 代码审计 |
+| [01-competitors/CYBER-Cairn.md](01-competitors/CYBER-Cairn.md) | **闭源信号**：ChainReactor CYBER / Cairn 黑板架构演进与消融（公开口径，未核实） |
 | [02-frameworks/pi.md](02-frameworks/pi.md) | **pi** 独立使用：是什么 / 场景 / 用法 / 效益 |
 | [02-frameworks/dsh.md](02-frameworks/dsh.md) | **dsh** 独立使用：是什么 / 场景 / 用法 / 效益 |
 | [02-frameworks/langchain.md](02-frameworks/langchain.md) | **LangChain** 独立使用：是什么 / 场景 / 用法 / 效益 |
@@ -69,6 +70,7 @@
 | Aurora License | README 写 MIT，GitHub `license` 字段空，需法务再核。 |
 | ARTEX norma SDK | 核心 agent 能力在外部 SDK，源码阅读需结合公开 Go 封装层。 |
 | Archify render | 本交付为 **typed JSON IR + mermaid**；本机未装 Archify CLI，**待 Archify render** 出 HTML/SVG。 |
+| CYBER / Cairn（ChainReactor） | 闭源，无源码可核。据[公开文章](https://mp.weixin.qq.com/s/bmQmIMtiPANCC8hEwmO0ew)（2026-10-20），CYBER 2.0 **预计 2026-11** 发布，将放弃以黑板作推理引擎；待公开材料再评，11 月前不据此调整记忆层选型。摘要见 [CYBER-Cairn](01-competitors/CYBER-Cairn.md)。 |
 
 ## 证据方法
 

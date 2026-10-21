@@ -28,6 +28,8 @@
 1. **资产图（全局共享）**：root_domain → subdomain → service → endpoint
 2. **探索图（每任务独立）**：goal / intent / fact / finding / hint，靠 spawns / derived_from / yields / proves 血缘相连；`exploration_anchors` 把探索节点锚定到资产
 
+> **字段对照（2026-10-21）**：探索图的 fact / intent / hint 与公开讨论中 Cairn 黑板的 Fact / Intent / Hint 对象在字段级同构（goal 亦对应 Cairn_Y FGS 图中的 Goal）。这只是概念对照，不表示 ARTEX 源自 Cairn；可借鉴结论不变。出处与证据边界见 [CYBER-Cairn](CYBER-Cairn.md)。
+
 ## C. 调度管理
 
 ### 机制概要
